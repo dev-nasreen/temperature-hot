@@ -9,7 +9,7 @@ return data.json()
 // console.log(data2.weather[0].description);
 document.getElementById("name").innerText = data2.name;
 document.getElementById("temp").innerText = data2.main.temp;
-document.getElementById("name").innerText = data2.weather[0].description;
+document.getElementById("desc").innerText = data2.weather[0].description;
 document.getElementById("icon").setAttribute('src', `http://openweathermap.org/img/wn/${data2.weather[0].icon}@2x.png`)
 })
 }
